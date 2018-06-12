@@ -1,0 +1,77 @@
+body {
+	background-image: url("../images/ck5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+
+}
+
+p {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+#RPG {
+    margin-left: 350px;
+	font-size: 68px;
+    font-family: 'Archivo Black', sans-serif;
+    color: yellow;
+    letter-spacing: 7px;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+
+.firstRow{
+    margin-top: 50px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	box-sizing: border-box;
+	outline-style: solid;
+	outline-color: limegreen;
+	outline-width: 3px;
+	align-items: center;
+	background-color: orange;
+}
+
+.name, .HP {
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Archivo Black', sans-serif;
+	margin-bottom: 0px;
+
+}
+
+#trey, #jerry, #mihali, #mayer {
+	width: 96%;
+	height: 65%;
+		
+}
+
+.col-12 {
+    font-weight: bold;
+    font-size: 32px;
+    color: yellow;
+	font-size: 15px;
+	font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 4px;
+}
+
+.padLeft {
+    margin-top: 10px;
+	padding-left: 20px;
+}
+
+#picRow {
+    height: 96%;
+	width: 65%;
+
+}
+
+#enemies0, #enemies1, #enemies2, #enemies3 {
+    
+    height: 96%;
+    width: 65%;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jam Band RPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+
+<!-- RESET -->
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/reet.css">
+
+<!-- BOOSTRAP -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<!-- -->
+</head>
+<body>
+    
+            
+            <div class = "col-6" id = "RPG" style="text-align: center">
+                <!-- Title -->
+                Jam Band RPG!
+                </div>
+            </div>
+    
+            <!-- Characters-->
+            <div class = "row" id = "picRow" style = "margin-left: 22px;">
+                <div class = "col-2 firstRow _0 float" id = "tre" value = "trey">
+                
+                <p class = "name namet r0" value = "0">Trey</p>
+                <img src="assets/images/trey.jpg" id = "trey"><br>
+                <p class = "HP treyhp trey r0"></p>
+                </div>
+    
+                <div class = "col-2 firstRow _1 float" id = "jer" value = "jerry">
+                
+                <p class = "name namej 1" value = "1">Jerry</p>
+                <img src="assets/images/jerry.jpg" id = "jerry"><br>
+                <p class = "HP jerryhp jerry 1"></p>
+                </div>
+    
+                <div class = "col-2 firstRow _2 float" id = "mih" value = "mihali">
+                
+                <p class = "name namem 2" value = "2">Mihali</p>
+                <img src="assets/images/mihali.jpg" id = "mihali"><br>
+                <p class = "HP mihalihp mihali 2"></p>
+                </div>
+    
+                <div class = "col-2 firstRow _3 float" id = "may" value = "mayer">
+                
+                <p class = "name namema 3" value = "3">John Mayer</p>
+                <img src="assets/images/mayer.jpg" id = "mayer"><br>
+                <p class = "HP mayerhp mayer 3"></p>
+                </div>
+            </div>
+    
+            
+            <div class = "row padLeft">
+                <div class = "col-12">
+                <h1>Your Champion</h1>
+                </div>
+            </div>
+    
+            <!-- Selected Character.-->
+            <div class = "row padLeft">
+                <div class = "col-8" id = "yourChar"></div>
+            </div>
+    
+            
+            <div class = "row padLeft">
+                <div class = "col-12">
+                <h2>Enemies Available to Attack</h2>
+                </div>
+            </div>
+            
+            <!--Available Enemies.-->
+            <div class = "row padLeft empty">
+                <div class = "col-8 move float"  id = "enemies1"></div>
+                <div class = "col-8 move float"  id = "enemies0"></div>
+                <div class = "col-8 move float"  id = "enemies2"></div>
+                <div class = "col-8 move float"  id = "enemies3"></div>
+            </div>
+    
+            <!--Fight Section-->
+            <div class = "row padLeft">
+                <div class = "col-12">
+                <p></p>
+                </div>
+            </div>
+    
+            <!--Attack button -->
+            <div class = "row padLeft">
+                <div class = "col-12 attackButton">
+                    
+                <button style = "font-size: 20px; font-family: 'Lekton', sans-serif;">Attack</button>
+                </div>
+            </div>
+    
+            <!--Defender Section-->
+            <div class = "row padLeft">
+                <div class = "col-12">
+                <h1>Your Enemy</h1>
+                </div>
+            </div>
+            
+            <!-- Chosen Enemy-->
+            <div class = "row padLeft" style = "padding:0px">
+                <div class = "col-12" id = "defender"></div>
+            </div>
+    
+            <!-- Combat Log-->
+            <div class = "row padLeft">
+                <div class = "col-12">
+                <br>
+                <h1>Combat Log: </h1>
+                <p class = "youAttacked"></p>
+                <p class = "attackedBack"></p>
+                <p class = "youDefeated"></p>
+                <p class = "youWon"></p>
+                <p class = "youLose"></p>
+                <p class = "noEnemy"></p>
+                </div>
+            </div>
+    
+            <!-- Restart -->
+            <div class = "row padLeft">
+                <div class = "col-12 padLeft">
+                <button class = "restart" style = "font-size: 20px; font-family: 'Lekton', sans-serif;">Restart</button>
+                </div>
+            </div>
+
+</body>
+
+<!--jQuery-->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+<!--Javascript-->
+<script type="text/javascript" src = "assets/javascript/game.js"></script>
+
+</html>
